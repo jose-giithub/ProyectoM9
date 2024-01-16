@@ -81,14 +81,12 @@
             <img src="{{ asset('images/maspullols.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Maspujols</h5>
-                <div class="buton">
-                    <button>VIEW DETAIL</button>
-                </div>
-                <div>
+        
+                <button type="button" class="btn btn-primary">
                     <a href="{{ route('destino') }}" class="btn btn-primary">
-                        Jugar a SQWORD
+                        Mas info
                     </a>
-                </div>
+                </button>
             </div>
         </div>
 
