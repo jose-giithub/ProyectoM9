@@ -29,4 +29,8 @@ class DestinoController extends Controller
         return view('destino5');
     } 
     //botón destino Monfragüe
+    public function mostrar6()
+    {
+        return view('destino6');
+    } 
 }

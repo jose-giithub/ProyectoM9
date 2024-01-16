@@ -106,10 +106,13 @@
         <div class="card">
             <img src="{{ asset('images/Monfragüe.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
-                <h5>Parque Nacional de Monfragüe, Cáceres</h5>
-                <p>
-                    Monfragüe , añadir text texto texto
-                </p>
+                <h5>Parque Nacional de Monfragüe</h5>
+               <br>
+               <button type="button" class="btn btn-primary">
+                    <a href="{{ route('destino6') }}" class="btn btn-primary">
+                        Mas info
+                    </a>
+                </button>
             </div>
         </div>
 

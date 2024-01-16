@@ -39,5 +39,4 @@ Route::get('destino2', [DestinoController::class, 'mostrar2'])->name('destino2')
 Route::get('destino3', [DestinoController::class, 'mostrar3'])->name('destino3');//Ruta destino Tarragona
 Route::get('destino4', [DestinoController::class, 'mostrar4'])->name('destino4');//Ruta destino Cabárceno
 Route::get('destino5', [DestinoController::class, 'mostrar5'])->name('destino5');//Ruta destino Gigantes
-
-    //Ruta destino Monfragüe
+Route::get('destino6', [DestinoController::class, 'mostrar6'])->name('destino6');//Ruta destino Monfragüe
