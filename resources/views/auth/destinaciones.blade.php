@@ -21,7 +21,7 @@
             <div class="card-body">
                 <h5>Maspujols</h5>
                 <div class="buton">
-                    <button>Ver mas info</button>
+                    <button>VIEW DETAIL</button>
                 </div>
             </div>
         </div>
@@ -33,6 +33,39 @@
                 <p>Tarragona es una ciudad costera de la provincia de Tarragona,
                     en la comunidad autónoma de Cataluña. Se encuentra en el noreste
                     de España, a orillas del mar Mediterráneo.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ asset('images/galicia.jpg') }}" alt="Imagen de destino">
+            <div class="card-body">
+                <h5>Cudillero</h5>
+                <p>
+                    Cudillero es un pueblo costero de la comarca del Oriente de Asturias,
+                    en España. Se encuentra en la costa del Cantábrico, a unos 50 kilómetros de Oviedo.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ asset('images/leon.jpg') }}" alt="Imagen de destino">
+            <div class="card-body">
+                <h5>Tarragona</h5>
+                <p>Tarragona es una ciudad costera de la provincia de Tarragona,
+                    en la comunidad autónoma de Cataluña. Se encuentra en el noreste
+                    de España, a orillas del mar Mediterráneo.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ asset('images/galicia.jpg') }}" alt="Imagen de destino">
+            <div class="card-body">
+                <h5>Cudillero</h5>
+                <p>
+                    Cudillero es un pueblo costero de la comarca del Oriente de Asturias,
+                    en España. Se encuentra en la costa del Cantábrico, a unos 50 kilómetros de Oviedo.
                 </p>
             </div>
         </div>
