@@ -64,10 +64,11 @@
             <img src="{{ asset('images/leon.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Tarragona</h5>
-                <p>Tarragona es una ciudad costera de la provincia de Tarragona,
-                    en la comunidad autónoma de Cataluña. Se encuentra en el noreste
-                    de España, a orillas del mar Mediterráneo.
-                </p>
+                <br>
+                <button type="button" class="btn btn-primary">
+                    <a href="{{ route('destino3') }}" class="btn btn-primary">
+                        Mas info
+                    </a>
             </div>
         </div>
         <div class="card">
