@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DestinacionesController;
+use App\Http\Controllers\DestinoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +32,6 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 Route::get('/destinaciones', [DestinacionesController::class, 'index'])->name('destinaciones');
+
+// En lace que lleva al la info del destino
+Route::get('destino', [DestinoController::class, 'mostrar'])->name('destino');
