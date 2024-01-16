@@ -36,9 +36,9 @@
             <img src="{{ asset('images/maspullols.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Maspujols</h5>
-        
+                <br>
                 <button type="button" class="btn btn-primary">
-                    <a href="{{ route('destino') }}" class="btn btn-primary">
+                    <a href="{{ route('destino1') }}" class="btn btn-primary">
                         Mas info
                     </a>
                 </button>
@@ -51,10 +51,12 @@
             <img src="{{ asset('images/galicia.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Cudillero</h5>
-                <p>
-                    Cudillero es un pueblo costero de la comarca del Oriente de Asturias,
-                    en España. Se encuentra en la costa del Cantábrico, a unos 50 kilómetros de Oviedo.
-                </p>
+               <br>
+                <button type="button" class="btn btn-primary">
+                    <a href="{{ route('destino2') }}" class="btn btn-primary">
+                        Mas info
+                    </a>
+                </button>
             </div>
         </div>
 

@@ -26,7 +26,7 @@
     </button>
     <header id="header">
 
-        <h1>Pueblos sin encanto Maspujols</h1>
+        <h1>Pueblos sin encanto: Maspujols</h1>
 
     </header>
 

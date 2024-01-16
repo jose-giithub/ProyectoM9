@@ -34,4 +34,9 @@ require __DIR__.'/auth.php';
 Route::get('/destinaciones', [DestinacionesController::class, 'index'])->name('destinaciones');
 
 // En lace que lleva al la info del destino
-Route::get('destino', [DestinoController::class, 'mostrar'])->name('destino');
+Route::get('destino1', [DestinoController::class, 'mostrar1'])->name('destino1');//Ruta destino Maspujols 
+Route::get('destino2', [DestinoController::class, 'mostrar2'])->name('destino2');//Ruta destino Cudillero 
+//Ruta destino Tarragona
+    //Ruta destino Cabárceno
+    //Ruta destino Gigantes
+    //Ruta destino Monfragüe
