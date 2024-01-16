@@ -4,15 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <title>Detalle del Destino</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+=======
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: #BBDEFB;
+        }
+
+        header {
+            padding-top: 50px;
+            text-align: center;
+            margin-bottom: 2rem;
+
+        }
+
+        #botonRetornar {
+            margin-top: 20px;
+            margin-right: 20px;
+            display: block;
+            float: right;
+        }
+
+        .container {
+
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: #BBDEFB;
+        }
+
+        .card {
+            margin: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            /* Ancho fijo para cada tarjeta */
+            height: 800px;
+            /* Altura fija para cada tarjeta */
+            background-color: #FFE57F;
+        }
+
+        .card img {
+            width: 100%;
+            height: 600px;
+            /* Altura fija para las imágenes */
+            object-fit: cover;
+            /* Asegura que la imagen cubra el área sin distorsionarse */
+        }
+
+        .card-body {
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+>>>>>>> 0398fd04e0e418cf9298961b0524a7a45b436c52
 </head>
 
 <body>
+    <button type="button" class="btn btn-primary" id="botonRetornar">
+        <a href="{{ route('dashboard') }}" class="btn btn-primary">Inicio</a>
+    </button>
     <header id="header">
-        <h1>Detalle del Destino</h1> 
-        <button>
-                <a href="{{ route('dashboard') }}" class="btn btn-primary">Retornar al dashboard</a>
-                </button>
+
+        <h1>Detalle del Destino</h1>
+
     </header>
 
     <div class="container">
