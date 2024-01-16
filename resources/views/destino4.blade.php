@@ -43,6 +43,7 @@
     <div class="card">
         <img src="{{ asset('images/agila.jpg') }}" alt="Imagen de destino">
         <div class="card-body">
+            <span>
             <h5>Cabárceno</h5>
             <p>Parque de la Naturaleza de Cabárceno es un zoológico ubicado en Cantabria, España. Es un parque único en el mundo,
                 ya que sus animales viven en semilibertad, en un entorno natural de 750 hectáreas.
@@ -54,6 +55,7 @@
             <br>
             <h6>Precio noche media pension con entrada 105€</h6>
             </p>
+            </span>
         </div>
     </div>
     </div>

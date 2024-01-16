@@ -34,17 +34,19 @@
     <div class="card">
         <img src="{{ asset('images/maspullols.jpg') }}" alt="Imagen de destino">
         <div class="card-body">
-            <h5>Maspujols</h5>
-            <p>Maspujols es un pueblo pequeño y tranquilo de la comarca del Baix Camp,
-                en la provincia de Tarragona. Se encuentra en el noreste de España,
-                a orillas del río Brugent. Tiene una población de unos 850 habitantes y
-                una historia que se remonta a la época romana..
+            <span>
+                <h5>Maspujols</h5>
+                <p>Maspujols es un pueblo pequeño y tranquilo de la comarca del Baix Camp,
+                    en la provincia de Tarragona. Se encuentra en el noreste de España,
+                    a orillas del río Brugent. Tiene una población de unos 850 habitantes y
+                    una historia que se remonta a la época romana..
 
+                    <br>
+                <h6 style=>fechas disponibles: del 1 de enero al 31 diciembre 2024</h6>
                 <br>
-            <h6 style=>fechas disponibles: del 1 de enero al 31 diciembre 2024</h6>
-            <br>
-            <h6>Precio noche media pension 65€</h6>
-            </p>
+                <h6>Precio noche media pension 65€</h6>
+                </p>
+            </span>
         </div>
     </div>
     </div>

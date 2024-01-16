@@ -34,6 +34,7 @@
     <div class="card">
         <img src="{{ asset('images/Gigantes.jpg') }}" alt="Imagen de destino">
         <div class="card-body">
+        <span><!-- Cuando pasas el raton por encima se muestra la info --><!-- Cuando pasas el raton por encima se muestra la info -->
             <h5>Los Gigantes</h5>
             <p>
 
@@ -51,6 +52,7 @@
             <br>
             <h6>Precio noche media pension 86€</h6>
             </p>
+            </span>
         </div>
     </div>
     </div>
