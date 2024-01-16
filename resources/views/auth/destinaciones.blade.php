@@ -51,7 +51,10 @@
 
 <body>
     <header id="header">
-        <h1>Detalle del Destino</h1>
+        <h1>Detalle del Destino</h1> 
+        <button>
+                <a href="{{ route('dashboard') }}" class="btn btn-primary">Retornar al dashboard</a>
+                </button>
     </header>
 
     <div class="container">
