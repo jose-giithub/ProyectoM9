@@ -17,15 +17,6 @@
         .card {
             background-color: #FFE57F;
         }
-
-        .card img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            margin: 0 auto;
-            margin-top: 0;
-            margin-bottom: 50px;
-        }
     </style>
 </head>
 
@@ -43,24 +34,24 @@
     <div class="card">
         <img src="{{ asset('images/Monfragüe2.jpg') }}" alt="Imagen de destino">
         <div class="card-body">
-            <h5>Parque Nacional de Monfragüe</h5>
-            <p>
+            <span><!-- Cuando pasas el raton por encima se muestra la info -->
+                <h5>Parque Nacional de Monfragüe</h5>
+                <p>
+                    El Parque Nacional de Monfragüe es un espacio natural protegido ubicado en la provincia de Cáceres,
+                    en España. Fue declarado parque nacional en 2007, y es uno de los espacios naturales más importantes
+                    de la península ibérica.
+                    <br>
+                    El parque tiene una superficie de 18.396 hectáreas, y está formado por un mosaico de ecosistemas,
+                    que incluyen bosques, dehesas, ríos y lagunas. Es un lugar de gran biodiversidad, y alberga una gran
+                    variedad de flora y fauna.
+                </p>
 
-
-                El Parque Nacional de Monfragüe es un espacio natural protegido ubicado en la provincia de Cáceres, 
-                en España. Fue declarado parque nacional en 2007, y es uno de los espacios naturales más importantes 
-                de la península ibérica.
                 <br>
-                El parque tiene una superficie de 18.396 hectáreas, y está formado por un mosaico de ecosistemas, 
-                que incluyen bosques, dehesas, ríos y lagunas. Es un lugar de gran biodiversidad, y alberga una gran 
-                variedad de flora y fauna.
-            </p>
-
-            <br>
-            <h6 style=>fechas disponibles: De Mayo a Septiembre</h6>
-            <br>
-            <h6>Precio noche media pension 135€</h6>
-            </p>
+                <h6 style=>fechas disponibles: De Mayo a Septiembre</h6>
+                <br>
+                <h6>Precio noche media pension 135€</h6>
+                </p>
+            </span>
         </div>
     </div>
     </div>

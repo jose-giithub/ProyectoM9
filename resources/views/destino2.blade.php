@@ -34,15 +34,17 @@
     <div class="card">
         <img src="{{ asset('images/galicia.jpg') }}" alt="Imagen de destino">
         <div class="card-body">
-            <h5>Cudillero</h5>
-            <p>Cudillero es un pueblo costero de la comarca del Oriente de Asturias,
-                 en España. Se encuentra en la costa del Cantábrico, a unos 50 kilómetros de Oviedo.
+            <span>
+                <h5>Cudillero</h5>
+                <p>Cudillero es un pueblo costero de la comarca del Oriente de Asturias,
+                    en España. Se encuentra en la costa del Cantábrico, a unos 50 kilómetros de Oviedo.
 
+                    <br>
+                <h6 style=>fechas disponibles: del 1 de Mayo al 31 Octubre 2024</h6>
                 <br>
-            <h6 style=>fechas disponibles: del 1 de Mayo al 31 Octubre 2024</h6>
-            <br>
-            <h6>Precio noche media pension 85€</h6>
-            </p>
+                <h6>Precio noche media pension 85€</h6>
+                </p>
+            </span>
         </div>
     </div>
     </div>

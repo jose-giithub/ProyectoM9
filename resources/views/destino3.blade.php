@@ -34,14 +34,16 @@
     <div class="card">
         <img src="{{ asset('images/leon.jpg') }}" alt="Imagen de destino">
         <div class="card-body">
-            <h5>Tarragona</h5>
-            <p>Tarragona es una ciudad costera de la provincia de Tarragona, en la comunidad autónoma de Cataluña. Se encuentra en el noreste de España, a orillas del mar Mediterráneo.
+            <span>
+                <h5>Tarragona</h5>
+                <p>Tarragona es una ciudad costera de la provincia de Tarragona, en la comunidad autónoma de Cataluña. Se encuentra en el noreste de España, a orillas del mar Mediterráneo.
 
+                    <br>
+                <h6 style=>fechas disponibles: del 1 de Enero al 31 Diciembre 2024</h6>
                 <br>
-            <h6 style=>fechas disponibles: del 1 de Enero al 31 Diciembre 2024</h6>
-            <br>
-            <h6>Precio noche media pension 45€</h6>
-            </p>
+                <h6>Precio noche media pension 45€</h6>
+                </p>
+            </span>
         </div>
     </div>
     </div>
