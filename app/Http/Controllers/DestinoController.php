@@ -19,6 +19,14 @@ class DestinoController extends Controller
         return view('destino3');
     } 
     //botón destino Cabárceno
+    public function mostrar4()
+    {
+        return view('destino4');
+    } 
     //botón destino Gigantes
+    public function mostrar5()
+    {
+        return view('destino5');
+    } 
     //botón destino Monfragüe
 }

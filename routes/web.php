@@ -37,7 +37,7 @@ Route::get('/destinaciones', [DestinacionesController::class, 'index'])->name('d
 Route::get('destino1', [DestinoController::class, 'mostrar1'])->name('destino1');//Ruta destino Maspujols 
 Route::get('destino2', [DestinoController::class, 'mostrar2'])->name('destino2');//Ruta destino Cudillero 
 Route::get('destino3', [DestinoController::class, 'mostrar3'])->name('destino3');//Ruta destino Tarragona
+Route::get('destino4', [DestinoController::class, 'mostrar4'])->name('destino4');//Ruta destino Cabárceno
+Route::get('destino5', [DestinoController::class, 'mostrar5'])->name('destino5');//Ruta destino Gigantes
 
-    //Ruta destino Cabárceno
-    //Ruta destino Gigantes
     //Ruta destino Monfragüe

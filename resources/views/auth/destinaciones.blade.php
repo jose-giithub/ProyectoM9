@@ -13,8 +13,13 @@
         body {
             background-color: #eae8e0;
         }
+
         .card {
             background-color: #FFE57F;
+        }
+
+        .container {
+            max-width: 900px;
         }
     </style>
 
@@ -45,13 +50,13 @@
             </div>
         </div>
 
-       
+
 
         <div class="card">
             <img src="{{ asset('images/galicia.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Cudillero</h5>
-               <br>
+                <br>
                 <button type="button" class="btn btn-primary">
                     <a href="{{ route('destino2') }}" class="btn btn-primary">
                         Mas info
@@ -69,16 +74,19 @@
                     <a href="{{ route('destino3') }}" class="btn btn-primary">
                         Mas info
                     </a>
+                </button>
             </div>
         </div>
         <div class="card">
             <img src="{{ asset('images/cabarceno.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Cabárceno</h5>
-                <p>
-                    Cabárceno , añadir text texto texto
-
-                </p>
+                <br>
+                <button type="button" class="btn btn-primary">
+                    <a href="{{ route('destino4') }}" class="btn btn-primary">
+                        Mas info
+                    </a>
+                </button>
             </div>
         </div>
 
@@ -87,9 +95,12 @@
             <img src="{{ asset('images/Gigantes.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Los Gigantes</h5>
-                <p>
-                    Los Gigantes , añadir text texto texto
-                </p>
+                <br>
+                <button type="button" class="btn btn-primary">
+                    <a href="{{ route('destino5') }}" class="btn btn-primary">
+                        Mas info
+                    </a>
+                </button>
             </div>
         </div>
         <div class="card">
@@ -97,7 +108,7 @@
             <div class="card-body">
                 <h5>Parque Nacional de Monfragüe, Cáceres</h5>
                 <p>
-                Monfragüe , añadir text texto texto
+                    Monfragüe , añadir text texto texto
                 </p>
             </div>
         </div>
