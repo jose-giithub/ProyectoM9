@@ -42,7 +42,7 @@
             <div class="card-body">
                 <h5>Maspujols</h5>
                 <br>
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary grow-on-hover">
                     <a href="{{ route('destino1') }}" class="btn btn-primary">
                         Mas info
                     </a>
@@ -50,14 +50,12 @@
             </div>
         </div>
 
-
-
         <div class="card">
             <img src="{{ asset('images/galicia.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Cudillero</h5>
                 <br>
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary grow-on-hover">
                     <a href="{{ route('destino2') }}" class="btn btn-primary">
                         Mas info
                     </a>
@@ -70,7 +68,7 @@
             <div class="card-body">
                 <h5>Tarragona</h5>
                 <br>
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary grow-on-hover">
                     <a href="{{ route('destino3') }}" class="btn btn-primary">
                         Mas info
                     </a>
@@ -82,7 +80,7 @@
             <div class="card-body">
                 <h5>Cabárceno</h5>
                 <br>
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary grow-on-hover">
                     <a href="{{ route('destino4') }}" class="btn btn-primary">
                         Mas info
                     </a>
@@ -96,7 +94,7 @@
             <div class="card-body">
                 <h5>Los Gigantes</h5>
                 <br>
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary grow-on-hover">
                     <a href="{{ route('destino5') }}" class="btn btn-primary">
                         Mas info
                     </a>
@@ -107,8 +105,8 @@
             <img src="{{ asset('images/Monfragüe.jpg') }}" alt="Imagen de destino">
             <div class="card-body">
                 <h5>Parque Nacional de Monfragüe</h5>
-               <br>
-               <button type="button" class="btn btn-primary">
+                <br>
+                <button type="button" class="btn btn-primary grow-on-hover">
                     <a href="{{ route('destino6') }}" class="btn btn-primary">
                         Mas info
                     </a>
